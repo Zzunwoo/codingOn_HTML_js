@@ -1,0 +1,18 @@
+table{
+    border: 1.5px solid #cccccc;
+    border-collapse: collapse;
+    width: 600px;
+}
+th, td{
+    border: 1.5px solid  #000000;
+    text-align: center;
+    padding: 10px;
+}
+thead{
+    background-color: #cccccc;
+}
+
+img{
+    border: 2px solid greenyellow;
+    border-radius: 1000px;\
+}

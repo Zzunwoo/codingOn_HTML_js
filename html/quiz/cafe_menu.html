@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴판</title>
+    <style>
+        table{
+            width: 500px;
+            border: 2px solid grey;
+            border-collapse: collapse;
+        }
+        /* , : 그룹 선택자 */
+        th, td{
+            border: 2px solid;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>구분</th>
+                <th>음료</th>
+                <th>가격</th>
+                <th>이미지</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">커피류</td>
+            </tr>
+                <td>아메리카노</td>
+                <td>4,200원</td>
+                <td><img src="../images/americano.jpg" alt="아메리카노" width="100" height="100"></td>
+            </tr>
+            <tr>
+                <td>카페라떼</td>
+                <td>4,800원</td>
+                <td><img src="../images/cafelatte.png" alt="카페라떼" width="100" height="100"></td>
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr>
+                <td rowspan="3">주스류</td>
+            </tr>
+            <tr>
+                <td>딸기주스</td>
+                <td rowspan="4">5,000원</td>
+                <td><img src="../images/strawberryjuice.jpg" alt="딸기주스" width="100" height="100"></td>
+            </tr>
+            <tr>
+                <td>망고주스</td>
+                <td><img src="../images/mangojuice.jpg" alt="망고주스" width="100" height="100"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

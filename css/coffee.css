@@ -1,0 +1,17 @@
+h2{
+    color: red;
+}
+
+#p1{
+    background-color: lightgoldenrodyellow;
+}
+
+#p2{
+    font-family: 바탕체;
+    line-height: 2;
+}
+
+.coffee{
+    /* font-weight: 700; */
+    font-weight: 700;
+}
