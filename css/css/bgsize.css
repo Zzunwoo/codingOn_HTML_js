@@ -1,0 +1,15 @@
+div{
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000000;
+    background: url(../images/watermelon.jpg) no-repeat; 
+}
+#bg1{
+    background-size: auto;
+}
+#bg2{
+    background-size: 320px;
+}
+#bg3{
+    background-size: contain;
+}
