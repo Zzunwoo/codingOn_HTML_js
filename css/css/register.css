@@ -1,0 +1,25 @@
+ul, li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+fieldset{
+    border-width: 3px;
+}
+#containor{
+    width: 1000px;
+    margin: 100px auto;
+}
+form{
+    width: 500px;
+}
+#click{
+    margin: 10px 5px 0px 2px;
+}
+#major{
+    width: 171px;
+    margin-left: 31px;
+}
+button{
+    padding: 5px 10px;
+    cursor: pointer;
+}
