@@ -52,9 +52,9 @@ header nav ul li a:hover{
     margin: 0 auto;
 }
 
-#main #contents h2{
+#main #contents h1{
     text-align: center;
-    font-size: 16px;
+    font-size: 32px;
 
 }
 
@@ -97,7 +97,24 @@ footer #footer_menu li:last-child{
     border-radius: 4px;
 }
 
-
+/* product 스타일 */
+#main #contents p{
+    text-align: justify;
+    line-height: 1.6;
+}
+#main #contents h3{
+    color: rgb(211, 3, 3);
+    margin: 5px 0;
+}
+#main #contents #watermelon, #strawberry{
+    width: 400px;
+    margin: 30px 0;
+}
+#main #contents #watermelon img, #strawberry img{
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
 
 /* pc 기준 */
 @media screen and (min-width: 800px) {
@@ -136,29 +153,21 @@ footer #footer_menu li:last-child{
         width: 900px;
     }
 
-    #main #contents .product_h1{text-align: center;}
-    #contents #watermelon, #strawberry{
-        height: 350px;
-
-
+    #main #contents p{
+        text-align: justify;
+        line-height: 1.8;
     }
-    #contents #watermelon img, #strawberry img{
+    #main #contents #watermelon, #strawberry{
+        width: 800px;
+        height: 350px;
+        margin: 40px auto;
+    }
+    #main #contents #watermelon img, #contents #strawberry img{
         float: left;
         width: 300px;
         height: 300px;
         margin-right: 16px;
-        border-radius: 6px;
     }
-    #contents #watermelon p, #strawberry p{
-        line-height: 1.5;
-    }
-    #contents #watermelon h3, #strawberry h3{
-        margin-bottom: 10px;
-        color: red;
-        margin-top: 50px;
-    }
-
-
 
 
 

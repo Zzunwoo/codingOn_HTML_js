@@ -2,25 +2,36 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shopOn - 게시판</title>
     <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0c5305cef3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="container">
         <header>
-            <div id="logo">
-                <h1>
+            <nav class="navbar">
+                <div class="navbar_logo">
                     <a href="./index.html">shopOn</a>
-                </h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">홈</li></a>
-                    <li><a href="./product.html">상품소개</li></a>
-                    <li><a href="./board.html">게시판</li></a>
-                    <li><a href="./login.html">로그인</li></a>
+                </div>
+                <ul class="navbar_menu">
+                    <li>
+                        <a href="./index.html">홈</a>
+                    </li>
+                    <li>
+                        <a href="./product.html">상품 소개</a>
+                    </li>
+                    <li>
+                        <a href="./board.html">게시판</a>
+                    </li>
+                    <li>
+                        <a href="./login.html">로그인</a>
+                    </li>
                 </ul>
+                <!-- 바 아이콘 -->
+                <a href="a" class="navbar_toggleBtn">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
             </nav>
         </header>
 
@@ -29,7 +40,9 @@
                 <div>
                     <h1 class="product_h1">상품 소개</h1>
                     <div id="watermelon">
-                            <img src="./images/수박.png" alt="수박">
+                            <div>
+                                <img src="./images/수박.png" alt="수박">
+                            </div>
                             <h3>수박(watermelon)</h3>
                             <p>
                             대개 <b>수박</b>이라 하면 <strong>수박</strong>이라는 식물의 열매를 지칭하며, 대개 사람 머리통보다 큰 열매가 덩굴에 맺히며 수분 함량이 높은 것이 특징이다. <br>
@@ -42,7 +55,9 @@
                 </div>
                 <div>
                     <div id="strawberry">
-                            <img src="./images/딸기.png" alt="딸기">
+                            <div>
+                                <img src="./images/딸기.png" alt="딸기">
+                            </div>
                             <h3>딸기(strawberry)</h3>
                             <p>
                                 딸기는 꽃턱 부분이 과육으로 자라난 헛열매이며 과육은 식용한다. <br> 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-direction</title>
+    <style>
+        #wrap{
+            width: 80%;
+            margin: 0;
+            border: 1px solid #333;
+            background-color: #eee;
+            display: flex;
+            /* 주축방향의 왼쪽 오른쪽 가운데 균등 */
+             /* justify-content: flex-start; */
+             /* justify-content: center; */
+             /* justify-content: flex-end; */
+             /* justify-content: space-between; */
+            justify-content: space-around;
+        }
+        #wrap div{
+            width: 100px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>flex-content 속성</h1>
+    <div id="wrap">
+        <div style="background-color: coral;">A</div>
+        <div style="background-color: lightblue;">B</div>
+        <div style="background-color: lightgoldenrodyellow;">C</div>
+        <div style="background-color: pink;">D</div>
+    </div>
+</body>
+</html>
