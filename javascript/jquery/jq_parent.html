@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+    <style>
+        .content{
+            width: 500px; margin: 0 auto;
+        }
+        .wrap *{ /* .wrap, ul, li, span */
+            display: block;
+            border: 2px solid #ddd;
+            margin: 16px;
+            padding: 5px;
+            color: lightblue;
+        }
+    </style>
+    <script>
+        $(function(){
+            
+            $('span').parent().next().css("border", "2px solid blue");
+
+
+            $('ul').children().css("color", "pink");
+            $('span').parent().css("color", "red");
+
+            //span(텍스트) 찾기
+            $('ul').find('span').css({color: "lightgreen", fontWeight: "bold"});
+
+        });
+    </script>
+<body>
+    <div class="content">
+        <div class="wrap">
+            <ul> ul (grand parent)
+                <li> li (direct parent)
+                    <span>span</span>
+                </li>
+                <li>li (parent)</li>
+                <li>li (parent)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

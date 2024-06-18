@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 자바스크립트의 객체 속성  -->
+    <div id="content">
+        <img src="images/peach.jpg" alt="복숭아" onclick="changePic()" id="fruit">
+    </div>
+    
+    <script>
+        // let fruitImg = document.querySelector("#fruit");
+
+        // function changePic(){
+        //     fruitImg.src = "images/blueberry.jpg";
+        // }
+        
+        // // changePic 함수에서 ()를 작성하면 함수가 맨 위로 올라가서 실행됨(호이스트)
+        // fruitImg.onclick = changePic; //changePic() 함수 호출
+        let sw = true;
+        fruit.onclick = function(){
+            if(sw){
+                fruit.src = "images/blueberry.jpg"
+                sw = false;
+            }else{
+                fruit.src = "images/peach.jpg"
+                sw = true;
+            }
+        }
+        
+    </script>
+</body>
+</html>
